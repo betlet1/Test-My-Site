@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    /* ana arka plan(geniş olan) bütün ekrana göre ölçü alınır*/
+    text-align: center;
+    /* hizalama ölçüsü: ortaya göre */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+    color: #40514E;
+    /*
+-------font-family için------
+fantasy: çok şekilli yazı
+san-serif:şekilsiz düzgün yazı
+serif:az şekilli yazı
+cursive: el yazısı ama çok da değil
+inherit:
+monospace: el yazımsı ama karakter bozuk
+*/
+}
+
+h1 {
+    font-size: 5.625rem;
+    /* --------16 px = 100% =1em---------
+        90px = 5.62em
+        em ebeveynlerinin boyutuna göre ayarlanır
+        rem ise temel fonta göre, hiçbir yere bağlı olmadan ayarlanır.
+       em kullanıcı tarafından boyutların değişebilir olmasıdır.
+     px de ise bizim belirlediğimiz sabit boyut vardır. ve kullanıcı ekran boyutunu değiştiremez. */
+    margin-top: 2.6rem;
+    /*body ye göre boşluk verilir. body nin içerisindeki bölünmüş bölümlerdir.*/
+
+    color: #66BFBF;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family:'Josefin Slab', serif; 
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 2.6rem;
+font-weight: bold;
+padding-bottom: 10px;
+
+}
+
+h3 {
+    color: #11999E;
+}
+hr{
+    border: dotted #bec2c2 6px;
+    border-bottom: none; 
+    width: 5%;
+    margin: 100px auto;   /*margin çalışma mekanizması:  üstboyut sağboyut altboyut solboyut  */
+}
+a {
+    color: #11999E;
+    font-family:'Josefin Slab', serif; 
+    margin: 10px 20px;
+    text-decoration: none;
+}
+/* a: hover-- üstüne geldiğinde demek */
+a:hover{
+color: #EAF6F6;
+}
+img {
+    width: 30%;
+}
+p{
+    line-height: 2;   /*yazılar arası boşluk*/
+}
+.intro{
+    width:30%;
+    margin: auto;
+}
+.pencil-img {
+    width: 25%;
+    float: left;
+    /* resim nerede duracak onu belirtir*/
+    margin-right: 30px;
+}
+
+.yay-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.pro {
+    text-decoration: underline;
+    /*altını çizme*/
+}
+
+.skill-row {
+    width: 60%;
+    /* divin genişliğini ayarlar.*/
+    margin: 100px auto 250px auto;
+    /* üst ve alt boşluk ayarlar*/
+    text-align: left; /* yazı nereye dayalı*/
+}
+
+/* containerlar(kap) siteyi oluşturan iskelet*/
+.top-container {
+    background-color: #E3FDFD;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 125px;
+    top: -50px;
+    width: 30%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+    width: 20%;
+}
+
+.contact-message{
+width: 40%;
+margin: 40px auto 60px;
+}
+.footer-link{
+    color: #11999E;
+    width: 10%;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding:20px 0 ;
+}
+/*
+.pencil-skill-description{       
+    clear: left;              /*paragrafın sol kısmını temizler yani solu yok sayar ve alttan devam eder 
+}
+.yay-skill-description{
+    clear: right;
+}
+*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Josefin Slab', serif; 
+    color: #ffffff;
+    font-size: 20px;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+#mountain {
+    width: 100%;
+}
